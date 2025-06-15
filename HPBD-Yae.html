@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc Mừng Sinh Nhật Brii!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="birthday-audio" src="happy-birthday.mp3" preload="auto"></audio>
+  <div class="decor">
+    <img src="cake.png" alt="birthday cake" class="cake">
+  </div>
+  <div class="card" onclick="showMessage()">
+    <h1>🎉 Happy Birthday bạn Yae muộn nha! 🎂</h1>
+    <p id="msg1" class="hidden">Hôm nay tớ bận một chút nên không giữ lời hứa được, mong brii thông cảm nha 🥺</p>
+    <p id="msg2" class="hidden">Tớ chúc mừng sinh nhật trước nhé, quà sẽ tới vào ngày mai! 🎁</p>
+    <p id="msg3" class="hidden">Chúc brii tuổi mới luôn vui vẻ, khỏe mạnh, làm gì cũng suôn sẻ và được bao người yêu thương! 💖</p>
+    <div id="gift" class="gift hidden">🎀 Quà đang trên đường đến rồi đó nè~</div>
+  </div>
+  <canvas id="fireworks"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
